@@ -47,7 +47,8 @@ const rooms = {
 };
 
 // localStorage so rooms visited can be tracked
-const visited = JSON.parse(localStorage.getItem('visited-apt1') || '{}');
+// const visited = JSON.parse(localStorage.getItem('visited-apt1') || '{}');
+const visited = {};
 
 // so that rooms you visited can be colored...might be obsolete when i do the pixel overlay
 Object.keys(visited).forEach(id => {
@@ -64,7 +65,7 @@ document.querySelectorAll('.room').forEach(room => {
 
     // this will mark a room as visited
     visited[id] = true;
-    localStorage.setItem('visited-apt1', JSON.stringify(visited));
+    // localStorage.setItem('visited-apt1', JSON.stringify(visited));
     room.classList.add('visited');
 
     // typewriter function for the notebook
