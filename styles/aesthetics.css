@@ -2,7 +2,7 @@
 .pixelify-sans-<uniquifier> {
   font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -15,7 +15,7 @@
 h1 {
     font-family: "Pixel Operator", "vt323-regular", "Pixelify Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 400;
     font-style: normal;
 }
 
