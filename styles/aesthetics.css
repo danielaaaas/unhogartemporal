@@ -126,6 +126,11 @@ svg {
     background-color: rgba(255, 100, 100, 0.4);
 }
 
+@font-face {
+    font-family: 'Dear Diary';
+    src: url('/fonts/DearDiary-Regular.ttf') format('truetype');
+}
+
 .close-button {
     position: absolute;
     top: 10px;
