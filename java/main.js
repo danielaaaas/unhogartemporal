@@ -78,6 +78,14 @@ document.querySelectorAll('.room').forEach(room => {
             i++;
             if (i >= text.length) clearInterval(timer);
         }, speed);
+
+    // only typewrite if notebook isn't already showing this room
+        if (document.getElementById('notebook-title').textContent !== data.title) {
+            typeWriter(data.text, 'notebook-text');
+            } else {
+            document.getElementById('notebook-text').textContent = data.text;
+        }
+
     }
 
 
