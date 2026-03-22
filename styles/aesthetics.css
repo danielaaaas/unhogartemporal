@@ -95,7 +95,7 @@ svg {
 
 .notebook h2 {
     font-family: 'Dear Diary', 'Killara', cursive;
-    font-size: 22px;
+    font-size: 32px;
     margin: 0 0 16px 0;
     color: #3A2E1E;
     border-bottom: 1px solid #C4A882;
@@ -104,7 +104,7 @@ svg {
 
 .notebook p {
     font-family: 'Dear Diary', 'Killara', cursive;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 2;
     color: #3A2E1E;
     margin: 0;
