@@ -3,42 +3,42 @@ const rooms = {
     'master-bedroom': {
         title: 'master bedroom',
         text: 'to be added.'
-    }
+    },
 
     'main-hallway': {
         title: 'main hallway',
         text: 'to be added.'
-    }
+    },
 
     'bedroom-closet': {
         title: 'bedroom closet',
         text: 'to be added.'
-    }
+    },
 
     'hallway-closet': {
         title: 'hallway closet',
         text: 'to be added.'
-    }
+    },
 
     'bathroom': {
         title: 'bathroom',
         text: 'to be added.'
-    }
+    },
 
     'living-room': {
         title: 'living room',
         text: 'to be added.'
-    }
+    },
 
     'kitchen': {
         title: 'kitchen',
         text: 'to be added.'
-    }
+    },
 
     'front-closet': {
         title: 'front closet',
         text: 'to be added.'
-    }
+    },
 
     'front-hallway': {
         title: 'front hallway',
@@ -79,7 +79,7 @@ document.querySelectorAll('.room').forEach(room => {
 // closes the notebook
 function closeNotebook() {
     document.getElementById('notebook').classList.remove('open');
-    document.getElementById('overlay').classList.add('active');
+    document.getElementById('overlay').classList.remove('active');
 }
 
 document.getElementById('close-button').addEventListener('click', closeNotebook);
