@@ -67,10 +67,22 @@ document.querySelectorAll('.room').forEach(room => {
     localStorage.setItem('visited-apt1', JSON.stringify(visited));
     room.classList.add('visited');
 
+    // typewriter function for the notebook
+    function typeWriter(text, elementId, speed = 30) {
+        const el = document.getElementById(elementId);
+        el.textContent = '';
+        let i = 0;
+        const timer = setInterval(() => {
+            el.textContent += text[i];
+            i++;
+            if (i >= text.length) clearInterval(timer);
+        }, speed);
+    }
+
 
     // opens the notebook 
     document.getElementById('notebook-title').textContent = data.title;
-    document.getElementById('notebook-text').textContent = data.text;
+    typeWriter(data.text, 'notebook-text');
     document.getElementById('notebook').classList.add('open');
     document.getElementById('overlay').classList.add('active');
   });
