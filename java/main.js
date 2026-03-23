@@ -91,7 +91,6 @@ document.querySelectorAll('.room').forEach(room => {
     // localStorage.setItem('visited-apt1', JSON.stringify(visited));
     room.classList.add('visited');
 
-
     // only typewrite if notebook isn't already showing this room
         if (document.getElementById('notebook-title').textContent !== data.title) {
             typeWriter(data.text, 'notebook-text');
@@ -99,11 +98,9 @@ document.querySelectorAll('.room').forEach(room => {
             document.getElementById('notebook-text').textContent = data.text;
         }
 
-
-
     // opens the notebook 
     document.getElementById('notebook-title').textContent = data.title;
-    typeWriter(data.text, 'notebook-text');
+    // typeWriter(data.text, 'notebook-text');
     document.getElementById('notebook').classList.add('open');
     document.getElementById('overlay').classList.add('active');
   });
