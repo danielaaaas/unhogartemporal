@@ -64,7 +64,7 @@ document.querySelectorAll('.room').forEach(room => {
     const id = room.id;
 
     // bedroom closet should lead to apartment numero dos
-    if (id === 'bedroom-closet') {
+    if (id === 'bedroom-one') {
         const door = document.getElementById('door-transition');
         door.classList.add('active');
         setTimeout(() => {
