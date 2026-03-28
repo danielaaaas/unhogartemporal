@@ -13,5 +13,30 @@
 
 <body>
     <h1>el cuarto hogar</h1>
+
+    <!-- leaving room for the apartment svg -->
+
+    <!-- overlay, for when the notebook is clicked, there is a darkening in the background -->
+     <div class="overlay" id="overlay"></div>
+
+    <!-- notebook popup...still need to build the pixel asset -->
+     <div class="notebook" id="notebook">
+        <div class="red-margin"></div>
+        <button class="close-button" id="close-button">x</button>
+        <h2 id="notebook-title">room</h2>
+        <p id="notebook-text">...</p>
+     </div>
+
+     <div class="door-transition" id="door-transition">
+        <div class="pixel-door">
+            <div class="door-frame">
+                <div class="door-left"></div>
+                <div class="door-right"></div>
+            </div>
+        </div>
+     </div>
+
+    <script id="cursor" src="cursorworkaround/key.js"></script>
+    <script id="mainjava" src="java/main.js"></script>
 </body>
 </html>
