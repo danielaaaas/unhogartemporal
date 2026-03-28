@@ -14,8 +14,55 @@
 <body>
     <h1>el segundo hogar</h1>
 
+    <div class="floor-plan-container">
+        <svg width="611" height="768" viewbox="0 0 611 768" 
+        fill="none" xmlns="http://wwww.w3.org/2000/svg"> <!-- xmlns = XML namespace -->
+        <!-- these are the main rooms -->
+        <rect id="apartment-two" x="1" y="4" width="602" height="752" fill="white"
+        stroke="#A1E1FC" stroke-width="2"/>
+        <rect id="bedroom-one" class="room" x="1" y="4" width="302" height="266" fill="#F5F5F5"
+        stroke="#A1E1FC" stroke-width="2"/>
+        <rect id="bedroom-two" class="room" x="301" y="4" width="302" height="350" fill="#F5F5F5"
+        stroke="#A1E1FC" stroke-width="2"/>
+        <rect id="kitchen" class="room" x="301" y="353" width="302" height="204" fill="#F5F5F5"
+        stroke="#A1E1FC" stroke-width="2"/>
+        <rect id="bathroom" class="room" x="1" y="270" width="136" height="204" fill="#F5F5F5"
+        stroke="#A1E1FC" stroke-width="2"/>
+        <!-- big merged shape area begins -->
+        <mask id="path-6-inside-1_2004_41" fill="white">
+            <path d="M302 554H604V757H134V554H136V269H302V554Z"/>
+        </mask>
+        <path id="living-room" class="room" d="M302 554H604V757H134V554H136V269H302V554Z" fill="#F5F5F5"/>
+        <path d="M302 554H300V556H302V554ZM604 554H606V552H604V554ZM604 757V759H606V757H604ZM134 757H132V759H134V757ZM134 
+        554V552H132V554H134ZM136 554V556H138V554H136ZM136 269V267H134V269H136ZM302 269H304V267H302V269ZM302 554V556H604V554V552H302V554ZM604 
+        554H602V757H604H606V554H604ZM604 757V755H134V757V759H604V757ZM134 757H136V554H134H132V757H134ZM134 554V556H136V554V552H134V554ZM136 
+        554H138V269H136H134V554H136ZM136 269V271H302V269V267H136V269ZM302 269H300V554H302H304V269H302Z" fill="#A1E1FC" mask="url(#path-6-inside-1_2004_41)"
+        fill="#A1E1FC" mask="url(#path-10-inside-1_1_49)"/>
+        <!-- big merge shape area ends -->
+        <rect id="foyer" class="room" x="1" y="472" width="136" height="94" fill="#F5F5F5"
+        stroke="#A1E1FC" stroke-width="2"/>
+        <rect id="bedroom-three" class="room" x="1" y="564" width="136" height="192" fill="#F5F5F5"
+        stroke="#A1E1FC" stroke-width="2"/>
 
-    <!-- leaving room for the apartment svg -->
+          <!-- these will be windows and doors-->
+            <!-- doors -->
+            <line id="bdrmone-door" x1="177" y1="270" x2="255" y2="270" stroke="#54CCFF" stroke-width="8" stroke-linecap="round"/>
+            <line id="bdrmtwo-door" x1="302" y1="278" x2="302" y2="332" stroke="#54CCFF" stroke-width="8" stroke-linecap="round"/>
+            <line id="bathroom-door" x1="136" y1="392" x2="136" y2="446" stroke="#54CCFF" stroke-width="8" stroke-linecap="round"/>
+            <line id="bdrmthree-door" x1="137" y1="589" x2="137" y2="643" stroke="#54CCFF" stroke-width="8" stroke-linecap="round"/>
+            
+            <!-- doorways -->
+            <line id="foyer-doorway" x1="136" y1="488" x2="136" y2="543" stroke="#54CCFF" stroke-width="8" stroke-linecap="round"/>
+            <line id="kitchen-doorway" x1="302" y1="412" x2="302" y2="498" stroke="#54CCFF" stroke-width="8" stroke-linecap="round"/>
+
+            <!-- windows -->
+            <line id="bdrmone-window" x1="110" y1="5" x2="199" y2="5" stroke="#00B3FF" stroke-width="8" stroke-linecap="square"/>
+            <line id="bdrmtwo-window" x1="416" y1="4" x2="505" y2="4" stroke="#00B3FF" stroke-width="8" stroke-linecap="square"/>
+            <line id="kitchen-window" x1="603" y1="407" x2="603" y2="492" stroke="#00B3FF" stroke-width="8" stroke-linecap="square"/>
+            <line id="livingroom-windowone" x1="241" y1="756" x2="330" y2="756" stroke="#00B3FF" stroke-width="8" stroke-linecap="square"/>
+            <line id="livingroom-windowtwo" x1="441" y1="756" x2="530" y2="756" stroke="#00B3FF" stroke-width="8" stroke-linecap="square"/>
+        </svg>
+    </div>
 
     <!-- overlay, for when the notebook is clicked, there is a darkening in the background -->
      <div class="overlay" id="overlay"></div>
