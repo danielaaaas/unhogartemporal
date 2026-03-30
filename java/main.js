@@ -233,7 +233,6 @@ document.getElementById('closet-submit').addEventListener('click', () => {
     const msg = document.getElementById('closet-input').value.trim();
     if (!msg) return;
 
-    document.getElementById('crumble-pile').innerHTML = '';
     document.getElementById('closet-input').value = '';
 
     // types the message on the wall first ( this part is giving me a headacheeeeeeee, thankfully it's recycling what i already used )
@@ -241,7 +240,7 @@ document.getElementById('closet-submit').addEventListener('click', () => {
 
     // then, once its written, it crumbles
     const crumbleDelay = msg.length * 40 + 800;
-    setTimeout(crumbleText, crumbleDelay);
+    setTimeout(() => crumbleText(msg), crumbleDelay);
 });
 
 document.getElementById('closet-input').addEventListener('keydown', e => {
