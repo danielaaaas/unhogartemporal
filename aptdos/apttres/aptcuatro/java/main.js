@@ -81,11 +81,25 @@ document.querySelectorAll('.room').forEach(room => {
     // bedroom closet should lead to apartment numero dos
     // test
     if (id === 'closet-one') {
-        const door = document.getElementById('door-transition');
-        door.classList.add('active');
-        setTimeout(() => {
-            window.location.href = 'https://danielaaaas.github.io/unhogartemporal/index.html';
+        //show the note first
+        // show the note first 
+        const note = document.getElementById('door-note');
+        note.classList.add('visible');
+
+        // if yes, proceed
+        document.getElementById('note-yes').onclick = () => {
+            note.classList.remove('visible');
+            const door = document.getElementById('door-transition');
+            door.classList.add('active');
+            setTimeout(() => {
+                window.location.href = 'https://danielaaaas.github.io/unhogartemporal/index.html';
             }, 1500);
+        };
+
+        // if no, remain on the page...nothing fancy ( sparkles would be nice though )
+        document.getElementById('note-no').onclick = () => {
+            note.classList.remove('visible');
+        };
     return;
 }
 

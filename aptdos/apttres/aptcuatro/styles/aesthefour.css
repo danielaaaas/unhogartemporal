@@ -16,10 +16,11 @@ h1 {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    margin-right: 24px;
 }
 
 body {
-    background-color: lightblue;
+    background-color: #E8F4FB;
     display: flex;
     justify-content: center;
     align-items: center;
