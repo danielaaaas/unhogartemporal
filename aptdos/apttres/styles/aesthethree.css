@@ -230,6 +230,18 @@ svg {
     display: block;
 }
 
+.door-note-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 199;
+}
+
+.door-note-overlay.visible {
+    display: block;
+}
+
 .note-tape {
     /* need a pixel tape asset */
     width: 60px;
