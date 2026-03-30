@@ -82,13 +82,15 @@ document.querySelectorAll('.room').forEach(room => {
     // test
     if (id === 'closet-one') {
         //show the note first
-        // show the note first 
         const note = document.getElementById('door-note');
+        const noteOverlay = document.getElementById('door-note-overlay');
         note.classList.add('visible');
+        noteOverlay.classList.add('visible');
 
         // if yes, proceed
         document.getElementById('note-yes').onclick = () => {
             note.classList.remove('visible');
+            noteOverlay.classList.remove('visible');
             const door = document.getElementById('door-transition');
             door.classList.add('active');
             setTimeout(() => {
@@ -99,6 +101,7 @@ document.querySelectorAll('.room').forEach(room => {
         // if no, remain on the page...nothing fancy ( sparkles would be nice though )
         document.getElementById('note-no').onclick = () => {
             note.classList.remove('visible');
+            noteOverlay.classList.remove('visible');
         };
     return;
 }
