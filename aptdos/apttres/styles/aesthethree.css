@@ -102,16 +102,15 @@ svg {
   position: fixed;
   top: 50%;
   left: 50%;
-  background-color: #F5F0E0;
-  border: 2px solid #9B3434;
-  border-radius: 4px;
-  width: 340px;
-  padding: 30px 30px 30px 60px;
-  box-shadow: 
-    4px 4px 20px rgba(0, 0, 0, 0.5),
-    inset 3px 0 0 #E8D5B0,
-    inset 4px 0 0 #F5F0E0,
-    inset 5px 0 0 #E8D5B0;
+  background-image: url('/elements/journal.png'), url('https://64.media.tumblr.com/e7b9b8b7663677e23a8335ea814e7908/99f9485623f4a2c0-f6/s1280x1920/1cd802a75f31225996c8d4584fabcd7be02a8502.png');
+  background-size: 100% 100%;
+  image-rendering: pixelated;
+  border: none;
+  border-radius: none;
+  width: 380px;
+  height: 320px;
+  padding: 100px 70px 70px 90px;
+  box-shadow: none;
   z-index: 100;
   /* for the animation */
   transform: translate(-50%, -50%) rotate(-1deg) scaleY(0);
@@ -127,55 +126,42 @@ svg {
   pointer-events: all;
 }
 
-
 .notebook h2 {
-    font-family: 'Dear Diary', 'Killara', cursive;
-    font-size: 32px;
-    margin: 0 0 16px 0;
+    font-family: 'Pixel Operator', 'VT323', 'Pixelify Sans', sans-serif;
+    font-size: 20px;
+    margin: 0 0 12px 0;
     color: #3A2E1E;
     border-bottom: 1px solid #C4A882;
     padding-bottom: 8px;
+    image-rendering: pixelated;
 }
 
 .notebook p {
-    font-family: 'Dear Diary', 'Killara', cursive;
-    font-size: 20px;
-    line-height: 2;
+    font-family: 'Pixel Operator', 'VT323', 'Pixelify Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
     color: #3A2E1E;
     margin: 0;
-    /* lined paper effect; should match line height */
-    background-image: repeating-linear-gradient(
-        transparent,
-        transparent 31px,
-        #C4A882 31px,
-        #C4A882 32px,
-    );
-}
-
-.notebook .red-margin {
-    position: absolute;
-    left: 48px;
-    top: 0;
-    bottom: 0;
-    width: 1px;
-    background-color: rgba(255, 100, 100, 0.4);
 }
 
 @font-face {
-    font-family: 'Dear Diary';
-    src: url('/fonts/DearDiary-Regular.ttf') format('truetype');
+    font-family: 'Pixel Operator';
+    src: url('/fonts/PixelOperator.ttf') format('truetype');
 }
 
 .close-button {
     position: absolute;
-    top: 10px;
-    right: 14px;
+    top: 100px;
+    right: 100px;
     cursor: url('https://64.media.tumblr.com/821cf7001bf745e2ddca3d248163c513/894ac02f0d28ad70-56/s1280x1920/b524d63c6de82323756b1603e624961da509144e.png'), auto;
     /* also included cursor in a .js if this doesn't work */
     font-size: 18px;
     color: #8B7355;
-    background: none;
-    border: none;
+    background-color: #F5F0E0;
+    border: 2px solid #9B3434;
+    padding: 2px 6px;
+    image-rendering: pixelated;
+    z-index: 101;
 }
 
 .door-transition {
