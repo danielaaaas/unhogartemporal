@@ -146,6 +146,11 @@ svg {
     margin: 0;
 }
 
+#notebook-text {
+    column-count: 2;
+    column-gap: 40px;
+}
+
 @font-face {
     font-family: 'Pixel Operator';
     src: url('/fonts/PixelOperator.ttf') format('truetype');

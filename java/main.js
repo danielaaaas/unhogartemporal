@@ -14,47 +14,47 @@
 const rooms = {
     'master-bedroom': {
         title: 'master bedroom',
-        text: 'current example, lorem ipsum dolor sit amet consectetur adipiscing elit. quisque faucibus ex sapien vitae pellentesque sem placerat. in id cursus mi pretium tellus duis convallis. tempus leo eu aenean sed diam urna tempor. pulvinar vivamus fringilla lacus nec metus bibendum egestas. iaculis massa nisl malesuada lacinia integer nunc posuere.'
+        text: 'the best hiding place from the dangers of the dark, where everyone packed together like sardines but love was always found here...even with an elbow in your face or a knee between your shoulder blades.'
     },
 
     'main-hallway': {
         title: 'main hallway',
-        text: 'to be added.'
+        text: 'this hallway felt as much a room as anything else, where siblings at odds would use the air between them to pass messages back and forth.'
     },
 
     'bedroom-closet': {
         title: 'bedroom closet',
-        text: 'to be added.'
+        text: 'the borderlands between one home and the next.'
     },
 
     'hallway-closet': {
         title: 'hallway closet',
-        text: 'to be added.'
+        text: 'a place to leave your secrets...'
     },
 
     'bathroom': {
         title: 'bathroom',
-        text: 'to be added.'
+        text: 'a place to leave a message or two...'
     },
 
     'living-room': {
         title: 'living room',
-        text: 'to be added.'
+        text: 'this place was everything - a bedroom that looked like a creatures maw when the lights were off, where parties were thrown, dinners eaten, clothes dried, ideas blossomed.'
     },
 
     'kitchen': {
         title: 'kitchen',
-        text: 'to be added.'
+        text: 'where meals were made and the scent of a home once left behind forever lingered in the air.'
     },
 
     'front-closet': {
         title: 'front closet',
-        text: 'to be added.'
+        text: 'a vaccuum of things lost, where memory has splotches of darkness like lacunae...'
     },
 
     'front-hallway': {
         title: 'front hallway',
-        text: 'to be added.'
+        text: 'another place that seemed like its own room, where kids hung out and wrote on the door painted in chalkboard grey, played games, existed as though the world itself was not right outside their canvas for imagination.'
     }
 };
 

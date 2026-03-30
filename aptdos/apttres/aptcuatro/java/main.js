@@ -14,52 +14,52 @@
 const rooms = {
     'bedroom-one': {
         title: 'bedroom one',
-        text: 'to be added.'
+        text: 'sometimes too cold, sometimes too hot, but music always flows, laughs are thrown around carefree and family feels closer than ever when spending time here.'
     },
 
     'bedroom-two': {
         title: 'bedroom two',
-        text: 'to be added.'
+        text: 'where the cat runs off when everything feels too overwhelming.'
     },
 
     'bedroom-three': {
         title: 'bedroom three',
-        text: 'to be added.'
+        text: 'a sort of wasteland where a gumpry troll lives...at least, she always keeps things interesting.'
     },
 
     'closet-one': {
         title: 'closet one',
-        text: 'to be added.'
+        text: 'the reset, a place to reminisce once more.'
     },
 
     'closet-two': {
         title: 'closet two',
-        text: 'to be added.'
+        text: 'this time, these spaces have a little less meaning, but they hold a thousand treasures all the same.'
     },
 
     'closet-three': {
         title: 'closet three',
-        text: 'to be added.'
+        text: 'this time, these spaces have a little less meaning, but they hold a thousand treasures all the same.'
     },
 
      'closet-four': {
         title: 'closet four',
-        text: 'to be added.'
+        text: 'this time, these spaces have a little less meaning, but they hold a thousand treasures all the same.'
     },
 
     'bathroom': {
         title: 'bathroom',
-        text: 'to be added.'
+        text: 'a place to leave a message or two...'
     },
 
     'living-kitchen': {
-        title: 'living room and kitchen',
-        text: 'to be added.'
+        title: 'living room & kitchen',
+        text: 'the space where multiple generations collide, sometimes for the best and sometimes for the worst, with dinners had, messes made and memories stitched into the fabric of their minds forever.'
     },
 
     'front-closet': {
         title: 'front closet',
-        text: 'to be added.'
+        text: 'a place to leave your secrets...'
     }
 };
 
@@ -115,7 +115,7 @@ document.querySelectorAll('.room').forEach(room => {
     }
 
 // closet opening 
-    if (id === 'hallway-closet') {
+    if (id === 'front-closet') {
         visited[id] = true;
         room.classList.add('visited');
         openCloset();

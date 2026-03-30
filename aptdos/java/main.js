@@ -14,37 +14,37 @@
 const rooms = {
     'bedroom-one': {
         title: 'bedroom one',
-        text: 'to be added.'
+        text: 'the first real space that was her own; the borderlands between one home and the next.'
     },
 
     'bedroom-two': {
         title: 'bedroom two',
-        text: 'to be added.'
+        text: 'sometimes a place to sleep, but more often the secondary living room, where movies were watched as a family, wounds mended, gossip tosted between one another like popcorn at the movies.'
     },
 
     'kitchen': {
         title: 'kitchen',
-        text: 'to be added.'
+        text: 'a place where mother and daughter finally see each other for the first time, where one existence connected to another with one small question: would you please teach me how to cook?.'
     },
 
     'bathroom': {
         title: 'bathroom',
-        text: 'to be added.'
+        text: 'a place to leave a message or two...'
     },
 
     'living-room': {
         title: 'living room',
-        text: 'to be added.'
+        text: 'larger than it had any right to be, where a family first made a house feel like a home.'
     },
 
     'foyer': {
         title: 'foyer',
-        text: 'to be added.'
+        text: 'the liminal space between worlds where the burdens of the outside world were shed before entering the safety and warmth of the place that most mattered.'
     },
 
     'bedroom-three': {
         title: 'bedroom three',
-        text: 'to be added.'
+        text: 'a vaccuum of things lost, where memory has splotches of darkness like lacunae...'
     }
 };
 
@@ -78,7 +78,7 @@ document.querySelectorAll('.room').forEach(room => {
             const door = document.getElementById('door-transition');
             door.classList.add('active');
             setTimeout(() => {
-                window.location.href = 'https://danielaaaas.github.io/unhogartemporal/aptdos/index.html';
+                window.location.href = 'https://danielaaaas.github.io/unhogartemporal/aptdos/apttres/index.html';
             }, 1500);
         };
 

@@ -14,27 +14,27 @@
 const rooms = {
     'bedroom-one': {
         title: 'bedroom one',
-        text: 'to be added.'
+        text: 'the borderlands between one home and the next.'
     },
 
    'bedroom-two': {
         title: 'bedroom two',
-        text: 'to be added.'
+        text: 'just as before, this place held more family gatherings than anything else, hosted more sunday movie nights and held witness to celebration and argument alike.'
     },
 
    'bedroom-three': {
         title: 'bedroom three',
-        text: 'to be added.'
+        text: 'a vaccuum of things lost, where memory has splotches of darkness like lacunae...'
     },
 
     'bathroom': {
         title: 'bathroom',
-        text: 'to be added.'
+        text: 'a place to leave a message or two...'
     },
 
     'living-kitchen': {
         title: 'living room & kitchen',
-        text: 'to be added.'
+        text: 'downsizing from so much space to this was a bit strange, the shape of the room felt odd, the kitchen too small, but all the same, everyone made due with what was given.'
     }
 };
 
@@ -68,7 +68,7 @@ document.querySelectorAll('.room').forEach(room => {
             const door = document.getElementById('door-transition');
             door.classList.add('active');
             setTimeout(() => {
-                window.location.href = 'https://danielaaaas.github.io/unhogartemporal/aptdos/index.html';
+                window.location.href = 'https://danielaaaas.github.io/unhogartemporal/aptdos/apttres/aptcuatro/index.html';
             }, 1500);
         };
 
