@@ -78,7 +78,7 @@ document.querySelectorAll('.room').forEach(room => {
     if (id === 'bedroom-closet') {
         // show the note first 
         const note = document.getElementById('door-note');
-        door.classList.add('visible');
+        note.classList.add('visible');
 
         // if yes...proceed with original transition. rmbr to add door asset
         document.getElementById('note-yes').onclick = () => {
